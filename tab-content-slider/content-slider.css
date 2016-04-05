@@ -1,0 +1,35 @@
+#slider {
+  display: flex;
+  height: 100px;
+  transition: transform 550ms cubic-bezier(.6,0,.3,1) 0ms;
+  transform: translate(0%, 0px);
+}
+
+.wrap {
+  overflow-x: hidden;
+}
+
+.box {
+  width: 100%;
+  overflow: auto;
+
+  flex-shrink: 0;
+}
+
+.inner-box {
+  min-height: 100px;
+  padding: 15px;
+  color: #fff;
+}
+
+.tab1 {
+  background-color: #ffb104;
+}
+
+.tab2 {
+  background-color: #4a73dd;
+}
+
+.tab3 {
+  background-color: #ff6a92;
+}

@@ -5,36 +5,39 @@
   <title>Tab Content Slider</title>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <link rel="stylesheet" href="./../main.css" media="screen" title="no title" charset="utf-8">
-  <style media="screen">
-    #slide {
-      transition: transform 550ms cubic-bezier(.6,0,.3,1) 0ms;
-    }
-  </style>
+  <link rel="stylesheet" href="./content-slider.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-  <h2>Sliding Content Tabs</h2>
+  <a href="./../index.html">Component Menu</a>
+  <h1>Tab Content Slider</h1>
   <hr>
   <section>
-    <button class="active" onclick="$('#slide').css('transform', 'translate3d(0%, 0px, 0px)');" tabindex="0" type="button">
+    <button class="active" onclick="$('#slider').css('transform', 'translate(0%, 0px)');" tabindex="0" type="button">
       <span>Tab1</span>
     </button>
-    <button onclick="$('#slide').css('transform', 'translate3d(-100%, 0px, 0px)');" tabindex="1" type="button">
+    <button onclick="$('#slider').css('transform', 'translate(-100%, 0px)');" tabindex="1" type="button">
       <span>Tab2</span>
     </button>
-    <button onclick="$('#slide').css('transform', 'translate3d(-200%, 0px, 0px)');" tabindex="2" type="button">
+    <button onclick="$('#slider').css('transform', 'translate(-200%, 0px)');" tabindex="2" type="button">
       <span>Tab3</span>
     </button>
 
-    <div style="overflow-x:hidden;">
-      <div id="slide" style="transform: translate3d(0%, 0px, 0px); display: flex; height: 100px;">
-        <div style="width:100%;flex-shrink:0;overflow:auto;">
-          <div style="padding:15px;min-height:100px;color:#fff;background-color:#ffb104;" >Tab 1</div>
+    <div class="wrap">
+      <div id="slider">
+        <div class="box">
+          <div class="inner-box tab1">
+            Tab 1
+          </div>
         </div>
-        <div style="width:100%;flex-shrink:0;overflow:auto;">
-          <div style="padding:15px;min-height:100px;color:#fff;background-color:#4a73dd;">Tab 2</div>
+        <div class="box">
+          <div class="inner-box tab2">
+            Tab 2
+          </div>
         </div>
-        <div style="width:100%;flex-shrink:0;overflow:auto;">
-          <div style="padding:15px;min-height:100px;color:#fff;background-color:#ff6a92;">Tab 3</div>
+        <div class="box">
+          <div class="inner-box tab3">
+            Tab 3
+          </div>
         </div>
       </div>
     </div>
