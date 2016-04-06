@@ -18,20 +18,20 @@
     <p>Based on <a href="https://github.com/oliviertassinari/react-swipeable-views">React-swipable-views</a></p>
     <br>
 
-    <button class="active" onclick="$('#slider').css('transform', 'translate3d(0%, 0px, 0px)');" tabindex="0" type="button">
+    <button id="tab1-btn" class="active" tabindex="0" type="button">
       <span>Tab1</span>
     </button>
-    <button onclick="$('#slider').css('transform', 'translate3d(-100%, 0px, 0px)');" tabindex="1" type="button">
+    <button id="tab2-btn" tabindex="1" type="button">
       <span>Tab2</span>
     </button>
-    <button onclick="$('#slider').css('transform', 'translate3d(-200%, 0px, 0px)');" tabindex="2" type="button">
+    <button id="tab3-btn" tabindex="2" type="button">
       <span>Tab3</span>
     </button>
 
     <div class="wrap">
       <div id="slider">
         <div class="box">
-          <div class="inner-box tab1">
+          <div class="inner-box tab1" draggable="true">
             Tab 1
           </div>
         </div>
@@ -51,13 +51,6 @@
     <br>
     <p>-ms- hacks <a href="https://github.com/postcss/autoprefixer/commit/c997ef65bb67de340085d577af652cd9af897952">Flex-grow/shrink/basis</a></p>
   </section>
-
-  <script type="text/javascript">
-    $("button").click(function(e) {
-      e.preventDefault();
-      $("button.active").removeClass("active");
-      $(this).addClass("active");
-    });
-  </script>
+  <script src="./slider.js" charset="utf-8"></script>
 </body>
 </html>
