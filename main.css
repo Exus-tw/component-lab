@@ -7,25 +7,3 @@ body {
   line-height: 1.5;
   color: #606c71;
 }
-
-button {
-  display: inline-block;
-  height: 25px;
-  box-sizing: border-box;
-  padding: 0 12px;
-  font-family: sans-serif;
-  font-size: 14px;
-  color: black;
-  text-decoration: none;
-  text-transform: uppercase;
-  cursor: pointer;
-  background-color: #f7f7f7;
-  border: 0;
-  outline: none;
-}
-
-button.active {
-  font-weight: bold;
-  color: white;
-  background-color: #333;
-}
