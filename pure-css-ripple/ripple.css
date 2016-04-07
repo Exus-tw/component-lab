@@ -24,6 +24,59 @@ button:after {
   transform: scale(0);
 }
 
+button:not(:active):after {
+  animation: ripple 1s ease-out;
+}
+
+/* fixes initial animation run on page load.
+ */
+button:after {
+  visibility: hidden;
+}
+
+button:focus:after {
+  visibility: visible;
+}
+
+/*
+ CHeckboxes
+ */
+.toggle {
+  position: relative;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.toggle input {
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  transform: translateY(-50%);
+}
+
+.toggle label {
+  position: relative;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.toggle label:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-top: -16px;
+  margin-left: -18px;
+  content: '';
+  background: #73c5e3;
+  border-radius: 100%;
+  opacity: .6;
+  transform: scale(0);
+}
+
 @keyframes ripple {
   0% {
     transform: scale(0);
@@ -37,16 +90,36 @@ button:after {
   }
 }
 
-button:not(:active):after {
-  animation: ripple 1s ease-out;
+@keyframes rippleDuplicate {
+  0% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
 
-/* fixes initial animation run, without user input, on page load.
+.toggle input + label:after {
+  animation: ripple .4s ease-out;
+}
+
+/*
+ To re-trigger the animation with just CSS, we need to duplicate the keyframes
  */
-button:after {
+.toggle input:checked + label:after {
+  animation-name: rippleDuplicate;
+}
+
+/* fixes initial animation run on page load.
+ */
+.toggle label:after {
   visibility: hidden;
 }
 
-button:focus:after {
+.toggle input:focus + label:after {
   visibility: visible;
 }
