@@ -1,0 +1,228 @@
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 12px;
+  color: #525252;
+  text-align: left;
+}
+
+.turquesa {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  background: #1abc9c;
+  border-right: #16a085 1px solid;
+  border-bottom: #16a085 3px solid;
+  border-left: #16a085 1px solid;
+  border-radius: 6px;
+}
+
+.turquesa:hover {
+  opacity: .8;
+}
+
+.turquesa:active {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-top: 3px;
+  color: white;
+  text-align: center;
+  background: #18b495;
+  border-right: #16a085 1px solid;
+  border-bottom: #16a085 1px solid;
+  border-left: #16a085 1px solid;
+  border-radius: 6px;
+}
+
+.esmeralda:active {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-top: 3px;
+  margin-right: 10px;
+  color: white;
+  text-align: center;
+  background: #2bbb68;
+  border-right: #27ae60 1px solid;
+  border-bottom: #27ae60 1px solid;
+  border-left: #27ae60 1px solid;
+  border-radius: 6px;
+}
+
+.azul {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  background: #3498db;
+  border-right: #2980b9 1px solid;
+  border-bottom: #2980b9 3px solid;
+  border-left: #2980b9 1px solid;
+  border-radius: 6px;
+}
+
+.azul:hover {
+  opacity: .8;
+}
+
+.azul:active {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-top: 3px;
+  color: white;
+  text-align: center;
+  background: #2385c7;
+  border-right: #2980b9 1px solid;
+  border-bottom: #2980b9 1px solid;
+  border-left: #2980b9 1px solid;
+  border-radius: 6px;
+}
+
+.amarillo {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  background: #f1c40f;
+  border-right: #f39c12 1px solid;
+  border-bottom: #f39c12 3px solid;
+  border-left: #f39c12 1px solid;
+  border-radius: 6px;
+}
+
+.amarillo:hover {
+  opacity: .8;
+}
+
+.amarillo:active {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-top: 3px;
+  color: white;
+  text-align: center;
+  background: #dab10e;
+  border-right: #f39c12 1px solid;
+  border-bottom: #f39c12 1px solid;
+  border-left: #f39c12 1px solid;
+  border-radius: 6px;
+}
+
+.carrot {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  background: #e67e22;
+  border-right: #d35400 1px solid;
+  border-bottom: #d35400 3px solid;
+  border-left: #d35400 1px solid;
+  border-radius: 6px;
+}
+
+.carrot:hover {
+  opacity: .8;
+}
+
+.carrot:active {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-top: 3px;
+  color: white;
+  text-align: center;
+  background: #ce6f17;
+  border-right: #d35400 1px solid;
+  border-bottom: #d35400 1px solid;
+  border-left: #d35400 1px solid;
+  border-radius: 6px;
+}
+
+.alizarin {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  background: #e74c3c;
+  border-right: #c0392b 1px solid;
+  border-bottom: #c0392b 3px solid;
+  border-left: #c0392b 1px solid;
+  border-radius: 6px;
+}
+
+.alizarin:hover {
+  opacity: .8;
+}
+
+.alizarin:active {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-top: 3px;
+  color: white;
+  text-align: center;
+  background: #e64533;
+  border-right: #c0392b 1px solid;
+  border-bottom: #c0392b 1px solid;
+  border-left: #c0392b 1px solid;
+  border-radius: 6px;
+}
+
+.concrete {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  background: #95a5a6;
+  border-right: #7f8c8d 1px solid;
+  border-bottom: #7f8c8d 3px solid;
+  border-left: #7f8c8d 1px solid;
+  border-radius: 6px;
+}
+
+.concrete:hover {
+  opacity: .8;
+}
+
+.concrete:active {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  margin-top: 3px;
+  color: white;
+  text-align: center;
+  background: #8a9c9d;
+  border-right: #7f8c8d 1px solid;
+  border-bottom: #7f8c8d 1px solid;
+  border-left: #7f8c8d 1px solid;
+  border-radius: 6px;
+}
