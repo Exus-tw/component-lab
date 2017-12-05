@@ -1,0 +1,48 @@
+article {
+  display: block;
+  position: fixed;
+  background: #000;
+  color: #fff;
+  overflow: auto;
+  z-index: 9999;
+  left: 0;
+  top: 50vh;
+  width: 100vw;
+  height: 0;
+  padding: 0;
+  transition: all 1s ease-in;
+}
+
+article:target {
+  top: 0;
+  height: 100vh;
+}
+
+article [data-button='close'] {
+  position: fixed;
+  display: block;
+  background: #c00;
+  color: #fff;
+  padding: 1em;
+  width: 1em;
+  height: 1em;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+}
+
+article [data-button='close']:hover {
+  background: #fff;
+  color: #c00;
+}
+
+article > section {
+  display: block;
+  opacity: 0;
+  transition: opacity 1s;
+  transition-delay: 1s;
+}
+
+article:target > section {
+  opacity: 1;
+}
