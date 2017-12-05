@@ -25,7 +25,7 @@ p {
 }
 
 .turquesa:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .turquesa:active {
@@ -74,7 +74,7 @@ p {
 }
 
 .azul:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .azul:active {
@@ -108,7 +108,7 @@ p {
 }
 
 .amarillo:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .amarillo:active {
@@ -142,7 +142,7 @@ p {
 }
 
 .carrot:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .carrot:active {
@@ -176,7 +176,7 @@ p {
 }
 
 .alizarin:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .alizarin:active {
@@ -210,7 +210,7 @@ p {
 }
 
 .concrete:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .concrete:active {

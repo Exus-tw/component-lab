@@ -20,7 +20,7 @@ button:after {
   content: '';
   background: #73c5e3;
   border-radius: 100%;
-  opacity: .4;
+  opacity: 0.4;
   transform: scale(0);
 }
 
@@ -73,7 +73,7 @@ button:focus:after {
   content: '';
   background: #73c5e3;
   border-radius: 100%;
-  opacity: .6;
+  opacity: 0.6;
   transform: scale(0);
 }
 
@@ -104,7 +104,7 @@ button:focus:after {
 }
 
 .toggle input + label:after {
-  animation: ripple .4s ease-out;
+  animation: ripple 0.4s ease-out;
 }
 
 /*

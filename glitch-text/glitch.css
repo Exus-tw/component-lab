@@ -76,7 +76,8 @@ h2 {
   }
 }
 
-.glitch:after, .glitch-txt:after {
+.glitch:after,
+.glitch-txt:after {
   position: absolute;
   left: 1px;
   overflow: hidden;
@@ -152,7 +153,8 @@ h2 {
   }
 }
 
-.glitch:before, .glitch-txt:before {
+.glitch:before,
+.glitch-txt:before {
   position: absolute;
   left: -1px;
   overflow: hidden;
@@ -169,7 +171,8 @@ h2 {
 }
 
 @media screen and (max-width: 550px) {
-  .glitch-txt:before, .glitch-txt:after {
+  .glitch-txt:before,
+  .glitch-txt:after {
     display: none;
   }
 }
