@@ -1,0 +1,19 @@
+button {
+  padding: 1.1rem 3.5rem;
+  margin: 1rem 0;
+  background: none;
+  color: #111;
+  border-radius: 2px;
+  border: 1.5px solid #111111;
+  font-size: 1.3rem;
+  transition: all 0.2s ease;
+}
+
+button.dark {
+  color: white;
+  background: #222;
+}
+
+button:active {
+  transform: scale(0.95);
+}
