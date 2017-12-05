@@ -7,3 +7,15 @@ body {
   line-height: 1.5;
   color: #606c71;
 }
+
+.go-back {
+  color: #333;
+  font-family: 'Luckiest Guy', 'Helvetica Neue', Arial, sans-serif, cursive;
+  background-color: #ed3264;
+  padding: 7px 5px 0 5px;
+  text-decoration: none;
+}
+
+.go-back:hover {
+  color: white;
+}
